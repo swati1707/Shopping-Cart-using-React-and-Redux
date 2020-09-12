@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: #00334d;
+  color:#fff;
+}
+img{
+  max-width: inherit;
+  width: 100%;
+}
+.thumbnail a p{
+  color:#ff471a;
+  margin-top:10px;
+}
+.products-list .col-md-4{
+  text-align: center;
+  margin-bottom:10px;
+}
