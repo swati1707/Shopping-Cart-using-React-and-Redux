@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import util from "../util";
 import { addToCart, removeFromCart } from "../actions/cartActions";
+
 class Basket extends Component {
   render() {
     const { cartItems } = this.props;
@@ -12,7 +13,8 @@ class Basket extends Component {
           "Basket is empty"
         ) : (
           <div>
-            You have {cartItems.length} items in the basket. <hr />
+            You have {cartItems.length} items in the basket. <i className="fa fa-2x fa-shopping-cart"></i>
+            <hr />
           </div>
         )}
         {cartItems.length > 0 && (
